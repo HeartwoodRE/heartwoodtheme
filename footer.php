@@ -10,7 +10,7 @@
           <div class="container-followContent">
             <div class="container-followBlock">
               <div id="FB">
-                <img src="http://staging.heartwoodrealestatepdx.com/wp-content/uploads/2018/11/Address-Icon-50-x-50.svg" alt="Twitter">
+                <img src="http://staging.heartwoodrealestatepdx.com/wp-content/uploads/2018/11/Address-Icon-50-x-50.svg" alt="Twitter" class="style-svg">
               </div>
             </div>
             <div class="container-followBlock">
