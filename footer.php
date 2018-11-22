@@ -10,17 +10,17 @@
           <div class="container-followContent">
             <div class="container-followBlock">
               <div id="FB">
-                <img src="http://staging.heartwoodrealestatepdx.com/wp-content/uploads/2018/11/Address-Icon-50-x-50.svg" alt="Twitter" class="style-svg">
+                <img src="https://staging.heartwoodrealestatepdx.com/wp-content/uploads/2018/11/Address-Icon-50-x-50.svg" alt="Twitter">
               </div>
             </div>
             <div class="container-followBlock">
               <div id="insta">
-                <img src="http://staging.heartwoodrealestatepdx.com/wp-content/uploads/2018/11/Instagram-Icon-50-x-50.svg" alt="Instagram">
+                <img src="https://staging.heartwoodrealestatepdx.com/wp-content/uploads/2018/11/Instagram-Icon-50-x-50.svg" alt="Instagram">
               </div>
             </div>
             <div class="container-followBlock">
               <div id="pin">
-                <img src="http://staging.heartwoodrealestatepdx.com/wp-content/uploads/2018/11/Pinterest-Icon-50-x-50.svg" alt="Pinterest">
+                <img src="https://staging.heartwoodrealestatepdx.com/wp-content/uploads/2018/11/Pinterest-Icon-50-x-50.svg" alt="Pinterest">
               </div>
             </div>
             <div class="container-followBlock">
@@ -62,8 +62,7 @@
   <script src="js/lib/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/lib/jquery-3.3.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/scripts.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
