@@ -9,10 +9,10 @@
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
 		<link href="<?php echo get_template_directory_uri(); ?>/img/icons/site.webmanifest" rel="manifest">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		
+
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="description" content="<?php bloginfo('description'); ?>">
-		
+
 		<?php wp_head(); ?>
 		<script>
         // conditionizr.com
@@ -22,10 +22,10 @@
             tests: {}
         });
         </script>
-		
+
 		<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
   		<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-		
+
 	</head>
 	<body <?php body_class(); ?>>
 
@@ -53,11 +53,11 @@
 							  </div>
 							</div>
 							<!-- /logo -->
-		
+
         				    <div class="container-headercontact">
 				              <div id="headercontact">
-                				<img src="https://www.placecage.com/25/25" alt="">
-        						</div>	
+                				<img src="<?php echo get_template_directory_uri(); ?>/img/icons/address.svg" alt="Contact">
+        						</div>
             				</div>
           				</div> <!--End header top bar -->
 
@@ -66,7 +66,7 @@
 						<nav class="nav" role="navigation">
 							<?php html5blank_nav(); ?>
 						</nav>
-					</div>	
+					</div>
 					<!-- /nav -->
 				</div> <!--container-headerinner-->
 			</header>
