@@ -73,7 +73,7 @@ fieldset {
 textarea {
     resize: vertical;
 }
- 
+
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
@@ -265,7 +265,6 @@ top: 0;
 
 #divider {
   color: rgba(35,35,35,.7);
-  padding: 15px;
 }
 
 .container-follow {
@@ -281,7 +280,7 @@ top: 0;
 
 .container-followBlock {
   display: flex;
-  padding: 15px;
+  padding: 0px 5px 0px 5px;
   text-align: center;
   vertical-align: center;
   align-items: center;
@@ -306,8 +305,8 @@ top: 0;
   vertical-align: middle;
   font-size: 8px;
   padding: 5px;
-
 }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

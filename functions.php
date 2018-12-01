@@ -35,7 +35,7 @@ if (function_exists('add_theme_support'))
     // Add Support for Custom Backgrounds - Uncomment below if you're going to use
     add_theme_support('custom-background', array(
       'default-color' => 'FFF',
-      'default-image' => get_template_directory_uri() . '/img/bg.jpg'
+      'default-image' => get_template_directory_uri() . '/img/bg.png'
     ));
 
     // Add Support for Custom Header - Uncomment below if you're going to use
