@@ -56,7 +56,7 @@
 
         				    <div class="container-headercontact">
 				              <div id="headercontact">
-                				<img src="<?php echo get_template_directory_uri(); ?>/img/icons/address.svg" alt="Contact">
+                				<img src="<?php echo get_template_directory_uri(); ?>/img/icons/mail.svg" alt="Contact" width="35px" height="50px">
         						</div>
             				</div>
           				</div> <!--End header top bar -->

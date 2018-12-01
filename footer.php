@@ -9,24 +9,16 @@
         <div class="container-follow">
           <div class="container-followContent">
             <div class="container-followBlock">
-              <div id="FB">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/facebook.svg" alt="Facebook">
-              </div>
+                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/facebook.svg" alt="Facebook" width="50px" height="35px"/>
             </div>
             <div class="container-followBlock">
-              <div id="insta">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/instagram.svg" alt="Instagram">
-              </div>
+                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/instagram.svg" alt="Instagram" width="50px" height="35px"/>
             </div>
             <div class="container-followBlock">
-              <div id="pin">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/pinterest.svg" alt="Pinterest">
-              </div>
+                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/pinterest.svg" alt="Pinterest" width="50px" height="35px"/>
             </div>
             <div class="container-followBlock">
-              <div id="twitterBlock">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/twitter.svg" alt="Twitter">
-              </div>
+                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/twitter.svg" alt="Twitter" width="50px" height="35px"/>
             </div>
           </div>
         </div>
@@ -47,8 +39,8 @@
             Beaverton, OR 97006 <br>
           </p>
         </div>
-        <div class="container-copyright">
-          <p class="copyright">
+        <div class="container-copyright" style="text-align: center; vertical-align: middle; font-size: 8px; padding: 5px;">
+          <p>
             &copy; <?php echo date('Y'); ?> heartwoodrealestatepdx.com
           </p>
         </div>
