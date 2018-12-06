@@ -88,6 +88,11 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
+/* ==========================================================================
+   General Page Elements
+   ========================================================================== */
 html {
   font-family: 'Bitter', serif;
 }
@@ -106,14 +111,20 @@ a :visited {
   color: olive;
 }
 
+h1 {
+  margin:0;
+}
 body {
-  background-image: url("img/background.png");
   background-attachment: scroll;
   background-size:auto;
   background-position: top left;
   background-repeat: repeat;
   height: 3200px;
 }
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
 
 .container-pagecontent {
   background-color: #fff;
@@ -155,12 +166,6 @@ body {
 height: 45px;
 padding-bottom: 50px;
 top: 0;
-}
-
-.fixed {
-    position: fixed !important;
-    width: auto;
-    z-index: 100;
 }
 
 .container-nav{
@@ -237,23 +242,12 @@ top: 0;
   padding: 5px;
 }
 
-.container-welcome {
-  background-color: #fff;
+.container-bodycontent {
 }
 
-#welcomeContent {
-  overflow: hidden;
-  width: 1000px;
-  height: 600px;
-  text-align: center;
-  text-transform: capitalize;
-  font-size: 69px;
-}
-
-.container-body {
-  height: 2500px;
-  position:
-}
+/* ==========================================================================
+   Footer
+   ========================================================================== */
 
 .container-footer {
 
@@ -308,9 +302,53 @@ top: 0;
 }
 
 /* ==========================================================================
+   Home Page
+   ========================================================================== */
+.container-welcome {
+  background-color: #eee;
+  text-align: center;
+}
+
+.welcomeText {
+  font-size: 150px;
+  font-family: 'Amatic SC';
+  font-weight: lighter;
+}
+
+.container-heroblock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-herocol {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-heroicon {
+  display: flex;
+}
+
+.container-herotext {
+  font-size: 12px;
+  text-align:justify;
+}
+
+/* ==========================================================================
    Helper classes
    ========================================================================== */
 
+/* Affixes to the top of the screen */
+.fixed {
+       position: fixed !important;
+       width: auto;
+       z-index: 100;
+   }
 /*
  * Hide visually and from screen readers
  */
