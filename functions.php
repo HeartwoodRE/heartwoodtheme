@@ -9,8 +9,6 @@
 	External Modules/Files
 \*------------------------------------*/
 
-// Load any external files you have here
-
 /*------------------------------------*\
 	Theme Support
 \*------------------------------------*/
@@ -97,6 +95,9 @@ function html5blank_header_scripts()
 
         wp_register_script('modernizr', get_template_directory_uri() . '/js/lib/modernizr-3.6.0.min.js', array(), '3.6.0'); // Modernizr
         wp_enqueue_script('modernizr'); // Enqueue it!
+
+        wp_register_script('vue', 'https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.js', array(), '2.5.16'); // Vue
+        wp_enqueue_script('vue'); // Enqueue it!
 
         wp_register_script('html5blankscripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '1.0.0'); // Custom scripts
         wp_enqueue_script('html5blankscripts'); // Enqueue it!

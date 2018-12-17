@@ -31,6 +31,8 @@
 			<!-- wrapper -->
 				<div class="container-page">
 				<div class="container-pagecontent">
+				<!-- vue.js instance	 -->
+					<div id="app">
 				<!-- header -->
 					<div class="container-header">
 						<header>
