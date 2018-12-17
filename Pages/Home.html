@@ -18,6 +18,12 @@
     </div>
   </div>
 
+  <div class="container-divider">
+    <div id="divider">
+      <hr>
+    </div>
+  </div>
+
   <div class="container-heroblock">
     <div class="container-herocol">
       <div class="container-heroicon">
@@ -62,6 +68,25 @@
           volutpat maximus sem feugiat sed. Nullam sit amet velit dictum magna
           egestas ullamcorper ac a orci. Vestibulum vel quam consectetur turpis
           placerat fringilla vel a ante. Mauris dapibus posuere velit</p>
+      </div>
+    </div>
+
+    <div class="container-instablock">
+      <div class="container-instafeedHeader">
+
+      </div>
+      <div class="container-instafeedBody">
+          <template>
+            <vue-instagram token="token" :count="5" :tags="['hashtag1', 'hashtag2']" mediaType="image">
+              <template slot="feeds" slot-scope="props">
+                <li class="fancy-list"> {{ props.feed.link }} </li>
+              </template>
+              <template slot="error" slot-scope="props">
+                <div class="fancy-alert"> {{ props.error.error_message }} </div>
+              </template>
+            </vue-instagram>
+          </template>
+        </div>
       </div>
     </div>
   </div>

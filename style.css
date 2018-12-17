@@ -120,6 +120,11 @@ a :visited {
 h1 {
   margin:0;
 }
+
+p {
+  
+}
+
 body {
   background-attachment: scroll;
   background-size:auto;
@@ -128,6 +133,17 @@ body {
   height: 3200px;
 }
 
+.container-divider {
+
+}
+
+#divider {
+  color: rgba(35,35,35,.7);
+}
+
+.container-bodycontent {
+  padding: 75px;
+}
 /* ==========================================================================
    Header
    ========================================================================== */
@@ -257,11 +273,7 @@ body {
 }
 
 .container-footerContent{
-
-}
-
-#divider {
-  color: rgba(35,35,35,.7);
+  padding: 75px;
 }
 
 .container-follow {
@@ -304,11 +316,12 @@ body {
   padding: 5px;
 }
 
+
 /* ==========================================================================
    Home Page
    ========================================================================== */
+
 .container-welcome {
-  background-color: #eee;
   text-align: center;
 }
 
@@ -343,6 +356,7 @@ body {
   width: 100%;
   align-items: center;
   justify-content: center;
+  min-width: 0;
 }
 
 .container-herotext {
@@ -350,7 +364,43 @@ body {
   font-size: 12px;
   align-self: center;
   text-align:left;
+  min-width: 0;
 }
+/* ==========================================================================
+   About Page
+   ========================================================================== */
+.container-aboutblock {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+}
+
+.container-aboutcol {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: 0;
+}
+
+.container-aboutpic {
+  display: flex;
+  background-color: #b3d2d0;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+}
+
+.container-abouttext {
+  text-align: justify;
+  min-width: 0;
+}
+
 
 /* ==========================================================================
    Helper classes

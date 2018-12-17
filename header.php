@@ -24,8 +24,7 @@
         </script>
 
 		<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
-  		<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-
+  	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 	</head>
 	<body <?php body_class(); ?>>
 
@@ -66,8 +65,12 @@
 						<nav class="nav" role="navigation">
 							<?php html5blank_nav(); ?>
 						</nav>
-					</div>
 					<!-- /nav -->
+					<div class="container-divider">
+						<div id="divider">
+							<hr>
+						</div>
+					</div>
 				</div> <!--container-headerinner-->
 			</header>
 			</div> <!-- container-header-->
