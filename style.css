@@ -75,9 +75,13 @@ textarea {
 }
 
 p, h1, h2, h3, h4, h5, li {
-  display: inline-block;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 /* ==========================================================================
@@ -369,6 +373,45 @@ body {
 /* ==========================================================================
    About Page
    ========================================================================== */
+.coontainer-missionblock {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-missioncol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-missionrow {
+  display: flex;
+  flex-flow:row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-missionicon {
+  display: flex;
+  background-color: #b3d2d0;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  vertical-align: middle;
+  align-self: center;
+  padding: 10px;
+}
+
+.container-missiontext {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
 .container-aboutblock {
   display: flex;
   flex-flow: row nowrap;
@@ -400,6 +443,10 @@ body {
   text-align: justify;
   min-width: 0;
 }
+
+/* ==========================================================================
+    classes
+   ========================================================================== */
 
 
 /* ==========================================================================

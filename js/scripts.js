@@ -1,19 +1,42 @@
-import Vue from 'vue'
-import VueInstagram from 'vue-instagram'
+const fixedHeader = new Vue({
+      el: '#headerBlock',
 
-Vue.use(VueInstagram.default)
-
-export default {
-  name: 'App',
-
-  components: {
-    VueInstagram
-  }
-}
-
-new Vue({
-      el: '#app',
       data: {
-        token: 'b2999556dcaa40e68374ef657ac660b7'
+        scrollY: null,
+        isfixed: false,
+      },
+
+      mounted() {
+        window.addEventListener('scroll', (event) => {
+          this.scrollY = Math.round(window.scrollY);
+        });
+      },
+
+      computed: {
+        'container-headerInner': {
+          props: ['top', 'scrollY'],
+          function () {
+          return {
+            style: {},
+            originalTop: 0
+            }
+          }
+        },
+
+          mounted() {
+            this.originalTop = this.$el.getBoundingClientRect().top;
+          },
+          watch: {
+            scrollY(newValue) {
+              const rect = this.$el.getBoundingClientRect();
+              const newTop = this.scrollY + +this.top - this.originalTop;
+
+              if (newTop > 0) {
+                this.$set(this.style, 'top', `${newTop}px`);
+              } else {
+                this.$delete(this.style, 'top');
+              }
+            }
+          }
       }
-})
+    });

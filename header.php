@@ -31,10 +31,8 @@
 			<!-- wrapper -->
 				<div class="container-page">
 				<div class="container-pagecontent">
-				<!-- vue.js instance	 -->
-					<div id="app">
 				<!-- header -->
-					<div class="container-header">
+					<div v-bind:class="container-header" id="headerBlock">
 						<header>
           		<div class="container-headerinner">
 							<div class="container-topbar">

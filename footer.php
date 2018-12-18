@@ -54,7 +54,7 @@
   <script src="<?php echo get_template_directory_uri(); ?>/js/lib/modernizr-3.6.0.min.js"></script>
   <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="<?php echo get_template_directory_uri(); ?>/js/lib/jquery-3.3.1.min.js"><\/script>')</script> -->
-  <script src="https://unpkg.com/vue-instagram"></script>
+  <!-- <script src="https://unpkg.com/vue-instagram"></script> -->
   <script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
 
 

@@ -99,7 +99,7 @@ function html5blank_header_scripts()
         wp_register_script('vue', 'https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.js', array(), '2.5.16'); // Vue
         wp_enqueue_script('vue'); // Enqueue it!
 
-        wp_register_script('html5blankscripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '1.0.0'); // Custom scripts
+        wp_register_script('html5blankscripts', get_template_directory_uri() . '/js/pre-scripts.js', array('jquery'), '1.0.0'); // Custom scripts
         wp_enqueue_script('html5blankscripts'); // Enqueue it!
     }
 }
