@@ -9,16 +9,24 @@
         <div class="container-follow">
           <div class="container-followContent">
             <div class="container-followBlock">
+              <a href="https://www.facebook.com/HeartwoodPDX" alt="Facebook">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/facebook.svg" alt="Facebook" width="50px" height="35px"/>
+              </a>
             </div>
             <div class="container-followBlock">
+              <a href="https://www.instagram.com/heartwoodteampdx/" alt="Instagram">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/instagram.svg" alt="Instagram" width="50px" height="35px"/>
+              </a>
             </div>
             <div class="container-followBlock">
+              <a href="https://www.facebook.com/HeartwoodPDX">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/pinterest.svg" alt="Pinterest" width="50px" height="35px"/>
+              </a>
             </div>
             <div class="container-followBlock">
+              <a href="https://twitter.com/heartwoodpdx">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/twitter.svg" alt="Twitter" width="50px" height="35px"/>
+              </a>
             </div>
           </div>
         </div>
