@@ -32,7 +32,7 @@
 				<div class="container-page">
 				<div class="container-pagecontent">
 				<!-- header -->
-					<div v-bind:class="container-header" id="headerBlock">
+					<div class="container-header">
 						<header>
           		<div class="container-headerinner">
 							<div class="container-topbar">
@@ -44,7 +44,7 @@
 						    <div class="container-logo">
 							  <div id="logo">
 								<a href="<?php echo home_url(); ?>">
-								  <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
+								  <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo" class="logo-img">
 								</a>
 							  </div>
 							  <div id="headertext" class="hidden">
@@ -55,7 +55,9 @@
 
         				    <div class="container-headercontact">
 				              <div id="headercontact">
-                				<img src="<?php echo get_template_directory_uri(); ?>/img/icons/mail.svg" alt="Contact" width="35px" height="50px">
+                				<a href="mailto:team@heartwoodrealestatepdx.com"> 
+													<img src="<?php echo get_template_directory_uri(); ?>/img/icons/mail.svg" alt="Contact Us" width="35px" height="50px"></a>
+												</a>
         						</div>
             				</div>
           				</div> <!--End header top bar -->
@@ -65,13 +67,8 @@
 						<nav class="nav" role="navigation">
 							<?php html5blank_nav(); ?>
 						</nav>
-					<!-- /nav -->
-					<div class="container-divider">
-						<div id="divider">
-							<hr>
-						</div>
 					</div>
-				</div> <!--container-headerinner-->
+					<!-- /nav -->
 			</header>
-			</div> <!-- container-header-->
+		</div> <!-- container-header-->
 			<!-- /header -->

@@ -131,10 +131,9 @@ p {
 
 body {
   background-attachment: scroll;
-  background-size:auto;
+  background-size: contain;
   background-position: top left;
   background-repeat: repeat;
-  height: 3200px;
 }
 
 .container-divider {
@@ -194,8 +193,20 @@ body {
   top: 0;
 }
 
+.logo-img {
+  width: auto;
+  height: 200px;
+}
+
+nav {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
 .container-nav{
   background-color: #fff;
+  text-align: center;
   transition: max-height .2s cubic-bezier(.23,1,.32,1),
     padding .2s cubic-bezier(.23,1,.32,1),
     margin .2s cubic-bezier(.23,1,.32,1);
@@ -273,7 +284,8 @@ body {
    ========================================================================== */
 
 .container-footer {
-
+  background-color: #fff;
+  width: 1000px;
 }
 
 .container-footerContent{
@@ -330,7 +342,7 @@ body {
 }
 
 .welcomeText {
-  font-size: 150px;
+  font-size: 120px;
   font-family: 'Amatic SC';
   font-weight: lighter;
   text-transform: capitalize;
@@ -373,6 +385,10 @@ body {
 /* ==========================================================================
    About Page
    ========================================================================== */
+.container-aboutheadertext {
+
+}
+
 .coontainer-missionblock {
   display: flex;
   flex-flow: row;
@@ -409,8 +425,6 @@ body {
   justify-content: center;
   text-align: center;
 }
-
-
 
 .container-aboutblock {
   display: flex;
